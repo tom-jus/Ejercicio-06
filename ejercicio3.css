@@ -1,0 +1,16 @@
+
+
+h1 {
+    background-color: red;
+    text-align: center;
+}
+
+.boton:after{
+    content: "Pasa por encima";
+    padding: 4px;
+}
+.boton:hover::after{
+    background-color: darkgreen;
+    color:azure;
+    content: "¡Hecho!";
+}
